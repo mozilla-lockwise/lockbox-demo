@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Lockbox",
+  "description": "Experimental Lockbox WebExtension",
+  "version": "0.1",
+
+  "permissions": ["experiments.loginstorage"],
+  "background": { "scripts": ["main.js"] }
+}
